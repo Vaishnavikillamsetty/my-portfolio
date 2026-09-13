@@ -363,9 +363,20 @@ export default function Portfolio() {
       {/* STICKY NAVBAR */}
       <header className="fixed top-0 left-0 right-0 z-40 backdrop-blur-md bg-[#08080a]/80 border-b border-slate-800/60 transition-all duration-300">
         <div className="max-w-7xl mx-auto px-6 h-20 flex items-center justify-between">
-          <a href="#hero" onClick={(e) => {e.preventDefault(); scrollToSection("hero");}} className="flex items-center gap-2 transition-transform hover:scale-105">
-          <img src="public/logo.jpg" alt="Vaishnavi Logo" className="h-8 w-auto object-contain" />
-          </a>
+          <a 
+  href="#hero" 
+  onClick={(e) => {
+    e.preventDefault(); 
+    scrollToSection("hero");
+  }} 
+  className="flex items-center gap-2 transition-transform hover:scale-105"
+>
+  <img 
+    src="/logo.jpg" 
+    alt="Vaishnavi Logo" 
+    className="h-8 w-auto object-contain" 
+  />
+</a>
 
           {/* Desktop Navigation */}
           <nav className="hidden md:flex items-center gap-8 font-medium text-sm text-slate-400">
