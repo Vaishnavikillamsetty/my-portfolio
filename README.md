@@ -26,3 +26,15 @@ A responsive, dark-themed developer portfolio built with React, Vite, and Tailwi
    git clone [https://github.com/Vaishnavikillamsetty/my-portfolio.git](https://github.com/Vaishnavikillamsetty/my-portfolio.git)
    cd my-portfolio
    
+2. **Install dependencies:**
+   ```bash
+   npm install
+
+3. **Start the local development server:**
+   ```bash
+   npm run dev
+
+4. **Build for production:**
+   ```bash
+   npm run build
+
