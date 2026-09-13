@@ -20,8 +20,7 @@ import {
   ArrowUpRight,
   Shield,
   Server,
-  Layout,
-  Share2
+  Layout
 } from "lucide-react";
 
 // Fallback social icons using standard SVG components
