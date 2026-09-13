@@ -19,10 +19,8 @@ import {
   Sparkles,
   ArrowUpRight,
   Shield,
-  Smartphone,
   Server,
   Layout,
-  Globe,
   Share2
 } from "lucide-react";
 
